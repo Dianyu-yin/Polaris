@@ -1,0 +1,20 @@
+# Direct runtime requirements copied from the verified POLARIS source snapshot.
+# This is not a complete OS/CUDA/binary lockfile; see README.md.
+streamlit==1.51.0
+torch>=2.6,<2.8
+torchvision>=0.21,<0.23
+transformers==4.42.0
+tokenizers==0.19.1
+scikit-learn==1.7.2
+pandas==2.3.3
+numpy==1.26.4
+pillow==11.3.0
+joblib==1.5.2
+huggingface-hub==0.36.0
+accelerate==1.11.0
+onnx==1.19.1
+onnxruntime==1.23.2
+opencv-python==4.8.1.78
+grad-cam==1.5.5
+cryptography==46.0.3
+pytest>=8,<9
